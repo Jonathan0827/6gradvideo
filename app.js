@@ -35,7 +35,7 @@ app.post('/upload', (req, res) => {
   });
 })
 // 404
-app.get('*', (req, res) => {res.status(404).sendFile(__dirname+"/src/404.html")
+app.get('*', (req, res) => {res.status(404).sendFile(__dirname+"/public/404.html")
 })
 // listen server
 app.listen(port, () => {
