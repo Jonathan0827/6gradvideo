@@ -1,0 +1,25 @@
+ <html>
+   <meta charset="utf-8" />
+<meta name="Video" content="Video Upload Server With Express" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://jonathan.kro.kr/style.css">
+      <title>6-3 FileUploadServer</title>
+      <body>
+        <main>
+        <h1>
+           6-3 졸업 비디오/사진 업로드 서버
+        </h1>
+        Made Simple by Jonathan0827(임준협)
+          <form ref='uploadForm' 
+      id='uploadForm' 
+      action='/upload' 
+      method='post' 
+      encType="multipart/form-data">
+      <input name="title">
+        <input type="file" name="fileToUpload"><br>
+        <input type="submit" value="upload" />
+        
+      </form>
+          </main>
+      </body>
+      </html>
